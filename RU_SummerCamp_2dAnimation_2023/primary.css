@@ -91,6 +91,12 @@ iframe {
     top: 20px;
 }
 
+.names {
+    white-space: pre;
+    margin-top:7%;
+}
+
+
 /* sidenav for mobile */
 
 .sidenav {

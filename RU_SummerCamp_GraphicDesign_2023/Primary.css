@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    margin:15px 15px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(110, 4, 143);
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.content {
+    display: flex;
+
+}
+
+
