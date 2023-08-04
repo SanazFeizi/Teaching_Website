@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+.container {
+    display: flex;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+}
+
+.left, .right {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 50%;
+}
+
+.description {
+
+    padding: 20px 22px;
+}
+
+.courses{
+
+    white-space: pre;  
+}
+
+a {
+text-decoration: none;
+color: rgb(168, 163, 163);
+}
+
+a:hover {
+    color: rgb(236, 236, 8);
+}

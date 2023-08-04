@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Class syllabus Rutgers Summer Camp 2023">
+        <meta name="keywords" content="Graphic design">
+        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="primary.css">
+        <title>2D Animation*Summer Camp2023</title>
+    </head>
+
+    <main>
+         <section class="container-fluid">
+            <span style="font-size:30px;cursor:pointer" class="hamburger-icon" onclick="openNav()">&#9776; </span>
+            
+            <aside id="mySidenav"  class="col-md-3">
+                <div class="position-fixed sidebar-content">
+
+                    <section class="nav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                        <h2>
+                            2D ANIMATION 
+                        </h2>
+                    
+
+                        <ul>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="syllabus.html">Syllabus</a></li>
+                            <li><a href="calendar.html">Calendar</a></li>
+                            <li><a href="project.html">Project</a></li>
+                            <li><a href="people.html">People</a></li>
+                        </ul>
+                    </section>
+
+
+
+                    <section class="info">
+                        <p>
+                            Summer Camp 2023
+                            Rutgers University
+                            
+                            Sanaz Feizi
+                            Sanaz.R.Feizi@rutgers.edu
+                        </p>
+                    </section>
+
+                </div>
+
+                
+            </aside>
+
+            <!--main contant-->
+
+            <section class="col-md-9">
+
+              <p class="content">This website hosts the curriculum for a 
+                pre-college design course known as 2D Animation. 
+                The course is led by Sanaz Feizi and is scheduled for the 
+                summer of 2023 at Rutgers Community Arts, Mason Gross School of 
+                the Arts, Rutgers University.</p>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").classList.add('opened-sidebar')
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").classList.remove('opened-sidebar')
+        }
+    </script>
+
+</html>
