@@ -141,35 +141,43 @@ body {
     overflow: hidden;
 }
 
-    iframe {
-        height: 94vh;
+ iframe {
+    height: 94vh;
+    width: 100%;
+    border-radius: 9px;
+    box-shadow: 1px 1px 4px rgb(178, 179, 177);
+    position: absolute;
+   top: 70px;
+}
+.container-fluid {
+    display: block;
+}
+
+.col-md-9 {
         width: 100%;
-        border-radius: 9px;
-        box-shadow: 1px 1px 4px rgb(178, 179, 177);
-        position: absolute;
-        top: 70px;
-    }
-    .container-fluid {
-        display: block;
-    }
-    .col-md-9 {
-        width: 100%;
-    }
-    .sidebar-content {
-        display: none;
-    }
-    .closebtn {
-        display: none;
-    }
+}
+
+.sidebar-content {
+    display: none;
+}
+
+.closebtn {
+    display: none;
+}
     
-    .opened-sidebar .closebtn {
-        display: block;
-        float: right;
-        font-size: 28px;
-    }
+.opened-sidebar .closebtn {
+    display: block;
+    float: right;
+    font-size: 28px;
+}
     
-    .opened-sidebar .sidebar-content {
-        display: block;
-        position: unset!important;
-    }
+.opened-sidebar .sidebar-content {
+    display: block;
+    position: unset!important;
+}
+
+.content {
+    margin-top: 60px;
+    
+}
 }
