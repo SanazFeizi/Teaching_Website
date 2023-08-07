@@ -188,8 +188,9 @@ body {
     
 }
 
-.content .names {
+.names {
     white-space: pre;
-    margin-left:10%
+    margin: 20px 195px!important;
 }
+
 }
