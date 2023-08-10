@@ -206,7 +206,7 @@ iframe {
 .course {
     position: absolute;
     top: 107px;
-    right: 19px;
+    left: 5%!important;
     width: 351px;  
 }
 
