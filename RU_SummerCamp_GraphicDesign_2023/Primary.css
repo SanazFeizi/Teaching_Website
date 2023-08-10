@@ -150,13 +150,12 @@ body {
 }
 
 iframe {
-    height: 70vh;
-    width: 95%;
+    height: 67vh!important;
+    width: 95%!important;
     border-radius: 9px;
     box-shadow: 1px 1px 6px rgb(178, 179, 177);
     position: absolute;
-    top:348px;
-    
+    top: 350px!important;
 }
 
 .course {
@@ -165,5 +164,34 @@ iframe {
     right: 65px;
     width: 630px;  
 }
+
+.Info {
+
+    position: absolute;
+    color: rgb(94,84,127); 
+    bottom: 25px;
+    left: 12.1%; 
+    font-weight: 600;
+    font-size: 13pt;
+    
+}
+
+span{
+   position: absolute;
+    bottom: -20px;
+    left: 0%; 
+    font-size: 11pt;
+    color: rgb(167,153,207);
+
+}
+
+
+.content  .Description {
+    position: absolute;
+    bottom: 20px;
+    left: 12.1%;
+   
+}
+
 
 }
