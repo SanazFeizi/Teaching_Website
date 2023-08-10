@@ -150,12 +150,12 @@ body {
 }
 
 iframe {
-    height: 81vh;
+    height: 75vh;
     width: 95%;
     border-radius: 9px;
     box-shadow: 1px 1px 6px rgb(178, 179, 177);
     position: absolute;
-    top: 514px;
+    top:348px;
     
 }
 
