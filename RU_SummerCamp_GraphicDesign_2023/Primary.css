@@ -140,14 +140,27 @@ iframe {
 
 
 @media screen and (max-width: 768px)  {
+    body {
+        overflow: hidden;
+    }
 
+iframe {
+
+    height: 76vh;
+    width: 634px;
+    left: 50%;
+    top: 50%;
 
 }
 
+.course {
+    top: 12%;
+    width: 622px;
+    left: 10%;
+     
+}
 
-
-
-
+}
 
 
 @media screen and (max-width: 390px) {
