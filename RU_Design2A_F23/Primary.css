@@ -1,0 +1,339 @@
+
+body {
+	margin: 0;
+    padding: 0;
+	height: 100%;
+	overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;  
+}
+
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.col-md-3 {
+    width: 25%;
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+.w-100 {
+    position: fixed;
+}
+
+.col-md-9 {
+    width: 75%;
+    /* display: flex;
+    justify-content: flex-end;  */
+    /* margin-right: 48px; */
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+.main {
+	height: 105vh;
+    width: 835px;
+}
+
+.Description {
+    white-space: pre;
+    position: relative;
+    top: 30px;
+    left: 35px;
+}
+
+
+iframe {
+    border-radius: 3px;
+    width: 100%;
+    height: 95%;
+    position: relative;
+    top: 0px;
+    right: 15px;  
+}
+
+/* Nav */
+
+/* .Tabs {
+    display: flex;
+    align-items: flex-start;
+} */
+
+ul {
+    list-style-type: none;
+    position: relative;
+    top: 18px;
+    right: 53px;
+}
+
+li a {
+    padding: 4px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+}
+  
+li a span {
+    display: inline-block;
+    position: relative; 
+    border: 3px dashed transparent; 
+    padding: 3px;
+}
+  
+li a span:hover,
+li a span.selected {
+    border: 3px dashed rgb(18, 67, 114);
+    padding: 3px;
+    color: rgb(127, 178, 224);
+}
+
+.info {
+    font-size:18px ;
+    text-align: right;
+    white-space: pre;
+    line-height: 1.65;
+    position: relative;
+    top: 35px;
+    right:70px;
+}
+
+/* Styles for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 49px;
+    max-width: 40%;
+    max-height: 80%;
+    overflow-y: auto;
+    top: 218px;
+    left: 208px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 23px;
+    right: 36px;
+    font-size: 20px;
+    cursor: pointer;
+    color:#3498db;
+}
+
+/* Additional styles for student details */
+#studentDetails {
+    padding: 20px;
+}
+
+
+.name-cloud {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 110px;
+    left: 240px;
+    position: relative;
+}
+
+.name-row {
+    display: flex;
+    gap:30px;
+    margin-bottom: 20px; 
+}
+
+
+.name {
+    background-color: rgb(18, 67, 114);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: calc(50% - 177px); /* Adjust this to control column width */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    transition: background-color 0.3s;
+    text-align: center;
+    
+}
+
+.name:hover {
+    background-color: #3498db;
+}
+
+
+.student-details-color {
+    color: rgb(18, 67, 114); 
+}
+
+/* .name:nth-child(1) {
+    top: 25%;
+    left: 30%;
+}
+
+.name:nth-child(2) {
+    top: 50%;
+    left: 50%;
+}
+
+.name:nth-child(3) {
+    top: 70%;
+    left: 20%;
+}
+
+.name:nth-child(4) {
+    top: 17%;
+    left: 15%;
+}
+
+.name:nth-child(5) {
+    top: 40%;
+    left: 40%;
+}
+
+.name:nth-child(6) {
+    top: 65%;
+    left: 18%;
+}
+
+.name:nth-child(7) {
+    top: 45%;
+    left: 55%;
+}
+
+.name:nth-child(8) {
+    top: 28%;
+    left: 40%;
+}
+
+.name:nth-child(9) {
+    top: 72%;
+    left: 45%;
+}
+
+.name:nth-child(10) {
+    top: 14%;
+    left: 10%;
+}
+
+.name:nth-child(11) {
+    top: 80%;
+    left: 20%;
+}
+
+.name:nth-child(12) {
+    top: 40%;
+    left: 10%;
+}
+
+.name:nth-child(13) {
+    top: 30%;
+    left: 30%;
+}
+
+.name:nth-child(14) {
+    top: 50%;
+    left: 15%;
+} */
+
+@media (min-width: 768px) {
+    .order-md-last {
+      order: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container-fluid {
+        display: block;
+    }
+
+    /* .Tabs {
+        margin-left: 0px;
+        width: 100%; 
+    } */
+
+    .col-md-3 {
+        width: 100%;
+    }
+    
+    .col-md-9 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .w-100 {
+        width: 100%;
+        position: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        gap: 20px; 
+    }
+
+    iframe {
+    width: 90%;
+    top: 0px;
+    Left: 8px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px rgb(178, 179, 177);
+    }
+
+    .Description {
+        white-space: pre;
+        position: relative;
+        top: 46px;
+        left: 2px;
+    }
+
+    ul {
+        position: relative;
+        top: 18px;
+        left: -8px;
+    }
+    
+
+    li a {
+        
+        text-align: left;
+        
+    }
+
+    
+    .info {
+        text-align: left;
+        top: 19px;
+        right: 47px;
+    
+}
+
+.modal-content {
+    top: 571px;
+}
+
+.name-cloud {
+    top: 94px;
+    left: 148px;
+}
+}
