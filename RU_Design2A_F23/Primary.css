@@ -36,6 +36,7 @@ body {
     box-sizing: border-box;
     margin: 0; 
     padding: 0; 
+    
 }
 
 .main {
@@ -171,8 +172,8 @@ li a span.selected {
     padding: 10px 15px;
     border-radius: 20px;
     cursor: pointer;
-    width: calc(50% - 177px); /* Adjust this to control column width */
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    width: calc(50% - 177px); 
+    box-sizing: border-box; 
     transition: background-color 0.3s;
     text-align: center;
     
@@ -265,75 +266,117 @@ li a span.selected {
 
 @media only screen and (max-width: 768px) {
 
-    .container-fluid {
-        display: block;
-    }
-
-    /* .Tabs {
-        margin-left: 0px;
-        width: 100%; 
-    } */
-
-    .col-md-3 {
-        width: 100%;
-    }
+body {
+    overflow: visible;
+}
     
-    .col-md-9 {
-        width: 100%;
-        margin-top: 20px;
-    }
+    
+.container-fluid {
+    display: block;
+}
 
-    .w-100 {
-        width: 100%;
-        position: unset;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; 
-        gap: 20px; 
-    }
+/* .Tabs {
+    margin-left: 0px;
+    width: 100%; 
+} */
 
-    iframe {
-    width: 90%;
+.col-md-3 {
+    width: 100%;
+}
+    
+.col-md-9 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.w-100 {
+    width: 100%;
+    position: unset;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    white-space: pre-line!important;
+}
+
+iframe {
+    width: 46%;
     top: 0px;
-    Left: 8px;
+    Left: 2px;
     border-radius: 3px;
     box-shadow: 1px 1px 4px rgb(178, 179, 177);
-    }
+}
 
-    .Description {
-        white-space: pre;
-        position: relative;
-        top: 46px;
-        left: 2px;
-    }
+.Description {
+    white-space: pre-line;
+    top: -11px;
+    left: 21px;
+    font-size: 10px;
+}
 
-    ul {
-        position: relative;
-        top: 18px;
-        left: -8px;
-    }
+ul {
+    position: relative;
+    top: 18px;
+    right: 29px;  
+    line-height: 0!important;
+}
     
 
-    li a {
+li a {
         
-        text-align: left;
+text-align: left;
+font-size: 15px;
         
-    }
+}
 
-    
-    .info {
-        text-align: left;
-        top: 19px;
-        right: 47px;
+li a span {
+   
+    padding: 9px!important;
+}
+  
+li a span:hover,
+li a span.selected {
+    padding: 9px!important;
     
 }
+
+    
+.info {
+    text-align: left;
+    top: 29.5px;
+    right: 47px;
+    font-size: 12px;
+    line-height: 1.2!important;
+}
+
 
 .modal-content {
-    top: 571px;
+   
+    padding: 6px;
+    overflow-y: auto;
+    top: 334px;
+    left: 15px;
+    
 }
 
+
 .name-cloud {
-    top: 94px;
-    left: 148px;
+   
+    top: 8px;
+    left: 17px;
 }
+
+.name-row {
+    
+    gap: 22px;
+    margin-bottom: 24px;
+}
+
+.name {
+   
+    width: calc(50% - 254px);
+   
+}
+
+
+
 }
