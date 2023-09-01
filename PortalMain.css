@@ -28,6 +28,19 @@ body {
 .description {
 
     padding: 20px 22px;
+   
+}
+
+@keyframes colorChange {
+    0% { color: rgb(168, 163, 163); }
+    25% { color: rgb(236, 236, 8); }
+    50% { color: rgb(128, 0, 128); }
+    75% { color: rgb(255, 0, 0); }
+    100% { color: rgb(0, 128, 0); }
+}
+
+.description span {
+    animation: colorChange 5s linear infinite; /* Adjust the duration (5s) as needed */
 }
 
 .courses{
@@ -42,4 +55,29 @@ color: rgb(168, 163, 163);
 
 a:hover {
     color: rgb(236, 236, 8);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .left, .right {
+    
+        width: 100%;
+    }
+    .left {
+        height: 10vh;
+    }
+    
+   .right{
+    position: relative;
+    top: 20px;
+    right: 86px;
+   }
 }
