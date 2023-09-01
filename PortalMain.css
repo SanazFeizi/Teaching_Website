@@ -39,8 +39,9 @@ body {
     100% { color: rgb(0, 128, 0); }
 }
 
-.description span {
-    animation: colorChange 5s linear infinite; /* Adjust the duration (5s) as needed */
+.title {
+    animation: colorChange 5s linear infinite;
+    padding-left:22px;
 }
 
 .courses{
@@ -72,7 +73,7 @@ a:hover {
         width: 100%;
     }
     .left {
-        height: 10vh;
+        height: 20vh;
     }
     
    .right{
@@ -80,4 +81,5 @@ a:hover {
     top: 20px;
     right: 86px;
    }
+
 }
