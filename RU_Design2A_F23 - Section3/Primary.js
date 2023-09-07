@@ -1,5 +1,5 @@
 function showStudentDetails(name) {
-  var studentDetails = getStudentDetails(name); 
+  var studentDetails = getStudentDetails(name); // You need to implement this function
   var modal = document.getElementById("studentModal");
   var studentDetailsElement = document.getElementById("studentDetails");
 

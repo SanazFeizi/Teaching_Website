@@ -30,6 +30,9 @@ body {
 
 .col-md-9 {
     width: 75%;
+    /* display: flex;
+    justify-content: flex-end;  */
+    /* margin-right: 48px; */
     box-sizing: border-box;
     margin: 0; 
     padding: 0; 
@@ -374,5 +377,7 @@ li a span.selected {
     width: calc(50% - 254px);
    
 }
+
+
 
 }
