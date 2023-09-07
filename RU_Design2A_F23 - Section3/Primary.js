@@ -13,21 +13,21 @@ function closeModal() {
 }
 
 function getStudentDetails(name) {
-  if (name === "Hannah Allocco") {
+  if (name === "Yasmeen Allafi") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
     <p>Hobbies: </p>
     <p> Add anything that you like to tell more about yourself </P>
     `;
-  } else if (name === "Esteban Arias") {
+  } else if (name === "Lizzie Carlisle") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
     <p>Hobbies: </p>
     <p> Add anything that you like to tell more about yourself </P>
     `;
-  } else if (name === "Jean Cirincione") {
+  } else if (name === "Shan Chen") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -35,7 +35,7 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   } 
-  else if (name === "Matthew Cruz") {
+  else if (name === "Anthony Crimaldi") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -43,7 +43,7 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   }
-  else if (name === "Brandon Fried") {
+  else if (name === "Rosa Gomez") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -51,7 +51,7 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   }
-  else if (name === "Pooja Gandhi") {
+  else if (name === "Jarod Hickman") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -59,7 +59,7 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   }
-  else if (name === "Dara Jackson") {
+  else if (name === "Grace Inacio") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -67,7 +67,7 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   }
-  else if (name === "Gabrielle Kim") {
+  else if (name === "Elise Jennings") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -75,7 +75,7 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   }
-  else if (name === "Paige Kurzawa") {
+  else if (name === "Hailey Kerlin") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -83,7 +83,7 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   }
-  else if (name === "Jiaxi Nie") {
+  else if (name === "Emily Lim") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -91,7 +91,7 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   }
-  else if (name === "Andrew Petrocelli") {
+  else if (name === "Sarah Lopez") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -99,7 +99,7 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   }
-  else if (name === "Yiji Wang") {
+  else if (name === "Nicole Machnowski") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -107,7 +107,7 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   }
-  else if (name === "Sammi Wu") {
+  else if (name === "Stayashey Sagastume-Castillo") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>
@@ -115,7 +115,15 @@ function getStudentDetails(name) {
     <p> Add anything that you like to tell more about yourself </P>
     `;
   }
-  else if (name === "Maggie Zheng") {
+  else if (name === "Analyssa Smith") {
+    return `
+    <h2>${name}</h2>
+    <p>Major: </p>
+    <p>Hobbies: </p>
+    <p> Add anything that you like to tell more about yourself </P>
+    `;
+  }
+  else if (name === "Franky Tan") {
     return `
     <h2>${name}</h2>
     <p>Major: </p>

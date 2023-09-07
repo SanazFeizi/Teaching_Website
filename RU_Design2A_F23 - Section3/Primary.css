@@ -30,9 +30,6 @@ body {
 
 .col-md-9 {
     width: 75%;
-    /* display: flex;
-    justify-content: flex-end;  */
-    /* margin-right: 48px; */
     box-sizing: border-box;
     margin: 0; 
     padding: 0; 
@@ -130,7 +127,7 @@ li a span.selected {
     max-width: 40%;
     max-height: 80%;
     overflow-y: auto;
-    top: 218px;
+    top: 205px;
     left: 208px;
     position: relative;
 }
@@ -154,7 +151,7 @@ li a span.selected {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    top: 110px;
+    top: 64px;
     left: 240px;
     position: relative;
 }
@@ -188,75 +185,6 @@ li a span.selected {
     color: rgb(18, 67, 114); 
 }
 
-/* .name:nth-child(1) {
-    top: 25%;
-    left: 30%;
-}
-
-.name:nth-child(2) {
-    top: 50%;
-    left: 50%;
-}
-
-.name:nth-child(3) {
-    top: 70%;
-    left: 20%;
-}
-
-.name:nth-child(4) {
-    top: 17%;
-    left: 15%;
-}
-
-.name:nth-child(5) {
-    top: 40%;
-    left: 40%;
-}
-
-.name:nth-child(6) {
-    top: 65%;
-    left: 18%;
-}
-
-.name:nth-child(7) {
-    top: 45%;
-    left: 55%;
-}
-
-.name:nth-child(8) {
-    top: 28%;
-    left: 40%;
-}
-
-.name:nth-child(9) {
-    top: 72%;
-    left: 45%;
-}
-
-.name:nth-child(10) {
-    top: 14%;
-    left: 10%;
-}
-
-.name:nth-child(11) {
-    top: 80%;
-    left: 20%;
-}
-
-.name:nth-child(12) {
-    top: 40%;
-    left: 10%;
-}
-
-.name:nth-child(13) {
-    top: 30%;
-    left: 30%;
-}
-
-.name:nth-child(14) {
-    top: 50%;
-    left: 15%;
-} */
 
 @media (min-width: 768px) {
     .order-md-last {
@@ -276,10 +204,6 @@ body {
     display: block;
 }
 
-/* .Tabs {
-    margin-left: 0px;
-    width: 100%; 
-} */
 
 .col-md-3 {
     width: 100%;
@@ -354,7 +278,7 @@ li a span.selected {
    
     padding: 6px;
     overflow-y: auto;
-    top: 334px;
+    top: 379px;
     left: 15px;
     
 }
