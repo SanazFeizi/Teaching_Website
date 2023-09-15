@@ -91,9 +91,7 @@ function getStudentDetails(name) {
   else if (name === "Emily Lim") {
     return `
     <h2>${name}</h2>
-    <p>Major: </p>
-    <p>Hobbies: </p>
-    <p> Add anything that you like to tell more about yourself </P>
+   
     `;
   }
   else if (name === "Sarah Lopez") {
