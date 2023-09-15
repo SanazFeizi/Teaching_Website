@@ -151,7 +151,7 @@ li a span.selected {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    top: 110px;
+    top: 73px;
     left: 240px;
     position: relative;
 }

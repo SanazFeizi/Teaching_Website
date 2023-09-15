@@ -67,9 +67,9 @@ function getStudentDetails(name) {
   else if (name === "Dara Jackson") {
     return `
     <h2>${name}</h2>
-    <p>Major: </p>
-    <p>Hobbies: </p>
-    <p> Add anything that you like to tell more about yourself </P>
+    <p>Major: Design </p>
+    <p>Hobbies: Browsing social media, Anime, Art and Design, Listening to music, Hanging out with friends </p>
+    <p> I like cute things and I’ve recently been trying to learn more about motion design :)</P>
     `;
   }
   else if (name === "Gabrielle Kim") {
@@ -129,6 +129,14 @@ function getStudentDetails(name) {
     <p>Hobbies: Playing guitar, hanging out with friends, thrifting, listening to music…
     </p>
     <p>I’m Asian American and I’m the first generation to attend college in my family.</P>
+    `;
+  }
+  else if (name === "Jiaxi Nie") {
+    return `
+    <h2>${name}</h2>
+    <p>Major: Design </p>
+    <p>Hobbies: Hanging out with friends, listening to music…</p>
+    
     `;
   }
 
