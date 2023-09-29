@@ -1,15 +1,36 @@
-
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
 
 body {
 	margin: 0;
 	height: 100%;
 	background: rgb(243, 241, 241);
-	overflow: hidden
+	overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+.home {
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
 }
 
 .main {
 	height: 105vh;
     width: 835px;
+    position: relative;
+    right: 115px;
+}
+
+.description {
+    position: relative;
+    top: 18px;
+    white-space: pre-line;
+    right: 98px;
 }
 
 iframe {
@@ -35,6 +56,7 @@ iframe {
     margin-right: 48px;
 }
 
+
 /* Tabs*/
 .Tabs {
     margin-left: 0px;
@@ -46,6 +68,8 @@ iframe {
 ul {
     list-style-type: none;
     padding: 0 21px;
+    position: fixed;
+    top:180px;
 }
 
 li a {
@@ -69,7 +93,13 @@ li a:hover {
     line-height: 1.7em;
     letter-spacing: 3px;
     white-space: pre;
-    padding-top: 175px;
+    position: relative;
+    top: 174px;
+    right: 156px;
+}
+
+small{
+    line-height: -0.5em;
 }
 
 
@@ -78,9 +108,24 @@ li a:hover {
         display: block;
     }
 
+    .main {
+        position: unset!important;
+    }
+
+    .description {
+        width: 88%;
+        right: 14px;
+        top: -14px;
+        position: relative!important;
+    }
+
     .Tabs {
         margin-left: 0px;
         width: 100%; 
+    }
+
+    ul {
+        position: unset!important;
     }
 
     .col-md-3 {
@@ -95,4 +140,18 @@ li a:hover {
     .w-100 {
         width: 100%;
     }
-}
+
+    .name {
+        position: relative;
+        top: -44px;
+        right: 57px
+    }
+
+    .Projects{
+        width: 100%;
+        position: relative;
+        right: 8px;
+    }
+
+    
+} 
