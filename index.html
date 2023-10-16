@@ -1,51 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="PortalMain.css">
-    <title>TeachingPortal</title>
-</head>
-<body>
-    <div class="container">
-        <div class="left">
-            <p class="description">
-                This web platform serves as the teaching portal of Sanaz Feizi.
-                <p class="title">designXploration.com</p>
-            </p>
-        </div> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="PortalMain.css">
+        <title>TeachingPortal</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <p class="description">
+                    This web platform serves as the teaching portal of Sanaz Feizi.
+                    <p class="title">designXploration.com</p>
+                </p>
+                
+            </div> 
 
-        <div class="right">
-            <p class="courses">
-            Rutgers University 
-            Mason Gross School of the Arts
-            Adjunct Professor
-          
-            Fall2023
-            <a href="RU_Design2A_F23_Section3/index.html">Systems, Section03</a>  
-            <a href="RU_Design2A_F23/index.html">Systems, Section01</a>
+            <div class="right">
+                <p class="courses">
+                Rutgers University 
+                Mason Gross School of the Arts
+                Adjunct Professor
             
-            Summer Camp 2023
-           <a href="RU_SummerCamp_GraphicDesign_2023/"> Graphic Design Intensive: Web & Print</a>
-           <a href="RU_SummerCamp_2dAnimation_2023/index.html"> 2D Animation </a>
-           
-            Spring 2023
-           <a href="RU_Design1B_S23/index.html"> Form & Meaning  </a>
+                Fall2023
+                <a href="RU_Design2A_F23_Section3/index.html">Systems, Section03</a>  
+                <a href="RU_Design2A_F23/index.html">Systems, Section01</a>
+                
+                Summer Camp 2023
+               <a href="RU_SummerCamp_GraphicDesign_2023/"> Graphic Design Intensive: Web & Print</a>
+               <a href="RU_SummerCamp_2dAnimation_2023/index.html"> 2D Animation </a>
+            
+                Spring 2023
+               <a href="RU_Design1B_S23/index.html"> Form & Meaning  </a>
 
-            Fall2022
-            Type & Typography
+                Fall2022
+                <a href="RU_Design1A_F22/index.html" >Type & Typography</a>
 
-            Spring 2022
-            Form & Meaning
+                Spring 2022
+                Form & Meaning
+            
+                </p>
+            </div> 
+
+            
+        </div>
+
         
-            </p>
-        </div> 
-    </div>
+
+        <div class="info-button-container">
+            <button class="info-button">Info</button>
+            <div class="info-content">
+                <p>Designer and developer: 
+                    <br>
+                    Sanaz Feizi
+                </p>
+            </div>
+        </div>
+
+        <script>
+            const infoButton = document.querySelector('.info-button');
+            const infoContent = document.querySelector('.info-content');
+        
+            infoButton.addEventListener('click', () => {
+                if (infoContent.style.display === 'block') {
+                    infoContent.style.display = 'none';
+                } else {
+                    infoContent.style.display = 'block';
+                }
+            });
+        </script>
 
 
-
-
-</body>
+    </body>
 </html>

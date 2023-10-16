@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.course {
+    font-size: 80px;
+    position: fixed;
+    top: 35%;
+    left: 23.60%;
+    font-weight: 700;
+    transition: color 1s, font-weight 1s, font-family 1s;
+    color: black;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.gray-change {
+    color: gray;
+    font-weight: 400;
+}
+
+.font-family-change-1 {
+    font-family: 'Arial', sans-serif;
+}
+
+.font-family-change-2 {
+    font-family: 'Times New Roman', serif;
+}
+
+.font-family-change-6 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 30px 96px 45px 102px; 
+    z-index: 1;
+}
+
+
+.title {
+    font-weight: 700;
+    color: rgb(99, 96, 96); 
+} 
+
+.Nav {
+    display: flex;
+    gap:50px;
+}
+
+
+.Nav a {
+    text-decoration: none;
+    font-size: 17pt;
+    color: rgb(99, 96, 96); 
+}
+
+.Nav a.active,
+.Nav a:hover {
+    font-family: 'YourCustomItalicFont', sans-serif;
+    font-size: 19pt;
+    display: inline-block;  
+    font-style: italic;
+    color: black; 
+}
+
+.Nav a.active {
+    font-weight: 600;
+}
+
+iframe {
+    height: 78vh;
+    width: 830px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 6px rgb(178, 179, 177);
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 0; 
+}
+
+.info {
+    position: absolute;
+    top: 60%;
+    white-space: pre-line;
+    left:7.5%;
+}
+
+
+@media screen and (max-width: 768px)  {
+body {
+    overflow: hidden;
+}
+
+iframe {
+
+    height: 76vh;
+    width: 100%;
+    left: 50%;
+    top: 44%;
+
+}
+
+
+.header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start!important;
+    padding: 0 0 71px 49px;
+}
+
+.title {
+    font-weight: unset;
+    font-size: 16px;
+    color: rgb(99, 96, 96); 
+} 
+
+.Nav {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.Nav a {
+    font-size: 20px!important;
+    
+}
+
+.Nav a.active,
+.Nav a:hover {
+
+    font-size: 20px;
+}
+
+.Nav a.active {
+    font-weight: 600;
+}
+
+.info{
+    position: absolute;
+    top: 70%;
+    white-space: pre-line;
+    left:6%;
+}
+
+.course {
+    font-size: 60px;
+    top: 40%; 
+    left:16%;
+}
+}
+
+
+@media screen and (max-width: 1112px)  {
+
+.header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start!important;
+}
+
+}
+
+
+@media screen and (max-width: 534px)  {
+
+    .header {
+       
+        padding: 0 0 71px 33px;
+    }
+
+
+    .Nav {
+        display: flex;
+        gap: 31px;
+        
+    }
+    
+    .Nav a {
+        font-size: 18px!important;
+        
+    }
+    
+    .Nav a.active,
+    .Nav a:hover {
+    
+        font-size: 18px;
+    }
+
+    .title {
+        font-weight: unset;
+        font-size: 14px;
+        color: rgb(99, 96, 96); 
+    } 
+
+    .info{
+        position: absolute;
+        top: 75%;
+        white-space:unset;
+        left:6%;
+        font-size: 14px;
+    }
+    
+    .course {
+        font-size: 40px;
+    }
+}
+
+

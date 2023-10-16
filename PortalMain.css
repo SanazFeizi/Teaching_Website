@@ -55,11 +55,47 @@ color: rgb(168, 163, 163);
 }
 
 a:hover {
-    color: rgb(236, 236, 8);
+    color: rgb(255, 255, 255);
 }
 
 
-@media only screen and (max-width: 768px) {
+.info-button-container {
+    position: absolute;
+    bottom: 10px; 
+    left: 23px;
+    z-index: 2;
+}
+
+.info-button {
+    background-color: #e2e3e4;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.info-button:hover {
+    background-color: white;
+}
+
+.info-content {
+    display: none;
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    width: 220px;
+    font-size: 13px;
+}
+
+
+
+@media only screen and (max-width: 1052px) {
 
 
     .container {
@@ -68,18 +104,40 @@ a:hover {
     }
     
 
-    .left, .right {
-    
-        width: 100%;
-    }
     .left {
-        height: 20vh;
+    
+        width: 100%!important;
+    }
+
+    .right {
+
+        width: 100%!important;
+
+    }
+
+    .left {
+        height: 25vh;
     }
     
-   .right{
-    position: relative;
-    top: 20px;
-    right: 86px;
-   }
+    .courses{
+
+        white-space: pre; 
+        position: relative; 
+        right: 103px;
+    }
+
+    .description {
+        padding: 20px 49px;
+    }
+
+    .title {
+        padding-left: 52px;
+    }
+
+    .info-button-container {
+        
+        left: 49px;
+       
+    }
 
 }
