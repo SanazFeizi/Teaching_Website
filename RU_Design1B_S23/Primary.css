@@ -84,7 +84,8 @@ li a {
     text-decoration: none;    
 }
 
-li a:hover {
+li a:hover,
+li a.selected {
 	background-color: rgb(131, 184, 245);
 }
 
