@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body {
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+
+.description {
+    position: relative;
+    top: 36px;
+    white-space: pre-line;
+    right: 267px;
+}
+
+iframe {
+	box-shadow: 1px 1px 1px 2px rgb(234, 235, 234);
+    height: 95vh;
+    width: 855px;
+    position: relative;
+    right: 58px;
+    top: 18px;
+}
+
+/* displays */
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+}
+
+.col-md-3 {
+    width: 30%;
+}
+
+.col-md-9 {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    margin-right: 28px;
+}
+
+
+/* Tabs*/
+.Tabs {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 21px;
+    position: fixed;
+    top:18px;
+}
+
+li a {
+	padding: 15px;
+    color: black;
+    border: 0.5px solid  rgb(234, 235, 234);
+	border-style: outset;
+    text-align: left;
+    display: block;
+    text-decoration: none; 
+    width: 130%; 
+    margin-bottom: 3px;   
+}
+
+li a:hover,
+li a.selected {
+	background-color: rgb(234, 235, 234);
+}
+
+
+.name {
+    line-height: 1.7em;
+    white-space: pre-line;
+    position: relative;
+    top: 45px;
+    right: 746px;
+}
+
+.aside {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 18px; 
+    white-space: pre-line;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container-fluid {
+        display: block;
+    }
+
+    iframe {
+        position: unset!important;
+        margin-top: 300px;
+    }
+
+    .description {
+        width: 89%;
+        right: 28px;
+        top: 354px;
+        position: relative!important;
+        white-space: unset!important;
+    }
+
+    .Tabs {
+        margin-left: 0px;
+        position: fixed;
+    }
+
+    ul {
+        position: unset!important;
+    }
+
+    li a {
+        width: 100%;
+    }
+
+
+    .col-md-3 {
+        width: 100%;
+    }
+    
+    .col-md-9 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .name {
+        top: 325px;
+        right: 443px;
+    }
+
+    .aside {
+        display: none;
+    }
+    
+} 
