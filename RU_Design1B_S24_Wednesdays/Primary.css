@@ -145,6 +145,7 @@ li a.selected {
     .name {
         top: 325px;
         right: 443px;
+        position: relative!important;
     }
 
     .aside {
