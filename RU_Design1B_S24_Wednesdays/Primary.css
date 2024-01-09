@@ -98,26 +98,28 @@ li a.selected {
 
 
 @media only screen and (max-width: 768px) {
+    
     .container-fluid {
         display: block;
     }
 
     iframe {
         position: unset!important;
-        margin-top: 300px;
+        margin-top: 52px;
     }
 
     .description {
-        width: 89%;
-        right: 28px;
-        top: 354px;
-        position: relative!important;
+        width: 100%;
+        position: unset!important;
         white-space: unset!important;
+        margin-top: 6px;
+        padding: 33px;
     }
 
     .Tabs {
         margin-left: 0px;
-        position: fixed;
+        position: unset!important;
+        margin-top: 25px;
     }
 
     ul {
@@ -143,9 +145,11 @@ li a.selected {
     }
 
     .name {
-        top: 325px;
-        right: 443px;
-        position: relative!important;
+        width: 100%;
+        position: unset!important;
+        white-space: unset!important;
+        margin-top: 6px;
+        padding: 33px;
     }
 
     .aside {
